@@ -45,6 +45,7 @@ static void readContents(int fd) {
 		//write to stdout and check for errors
 		if((write(1, &buff, 1)) < 0) {
 			fprintf(stderr, "%s\n", strerror(errno));
+			close(fd);
 			exit(1);
 		}
 	}
