@@ -1,3 +1,8 @@
+/*Group: Antonio Maniscalco, Chase Jamieson, Josh Sedig
+* CS460 Assignment 1
+* Instructor: Dr. Xuechen Zhang
+* my-cat.c file */
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
