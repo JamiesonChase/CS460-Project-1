@@ -1,5 +1,5 @@
 /*Group: Antonio Maniscalco, Chase Jamieson, Josh Sedig
-* CS460 Assignment 1
+* CS460 Project 1
 * Instructor: Dr. Xuechen Zhang
 * my-cat.c file */
 
