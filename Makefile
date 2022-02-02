@@ -1,4 +1,4 @@
-#Antonio Maniscalco
+#Antonio Maniscalco, Josh Sedig, Chase Jamieson
 #CS460 
 #Instructor: Dr. Xuechen Zhang
 #Makefile
