@@ -3,15 +3,15 @@
 #Instructor: Dr. Xuechen Zhang
 #Makefile
 
-TARGET =  my-cat my-cat.c my-sed my-sed.c my-uniq my-uniq.c
+TARGET =  test my-cat 
+FILES = test.c my-cat.c
 LDLIBS = -lm
 CFLAGS += -std=c99 -D_DEFAULT_SOURCE -Wall
-RM = rm -f
-JUNK=*.o *~ *.dSYM
+RM = rm 
 
 .PHONY: all clean
 
-all: $(TARGET)
+all: $(TARGET) $(FILES)
 
 clean:
-	$(RM) $(TARGET) $(JUNK)
+	$(RM) $(TARGET) 
