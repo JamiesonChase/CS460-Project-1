@@ -34,7 +34,7 @@ The my-sed program searches the given document(s) for a given term and replaces 
     Program will replace <file1> with <file2> in the string read from stdin.
     
 ## my-uniq
-The program my-uniq will find adjacent duplicate lines from a specified file, removes them, writes it to an output file, and writes the line to stdout.
+The program my-uniq will find adjacent duplicate lines from a specified file, or stdin, and displays non duplicate adjacent lines to stdout.
   ### Running Program:
     $ ./my-uniq <file1> <file2>
     Program will remove adjacent duplicate lines from both files and write them to stdout. There can be many files.
