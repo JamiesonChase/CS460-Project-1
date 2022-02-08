@@ -39,4 +39,7 @@ The program my-uniq will find adjacent duplicate lines from a specified file, re
     $ ./my-uniq <file1> <file2>
     Program will remove adjacent duplicate lines from both files and write them to stdout. There can be many files.
     
+    $ ./my-uniq
+    Program will take user input to parse.
+    
     
